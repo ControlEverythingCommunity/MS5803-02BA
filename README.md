@@ -19,12 +19,12 @@ Download (or git pull) the code in pi.
 
 Compile the java program.
 ```cpp
-$> pi4j MS5803-02BA.java
+$> pi4j MS5803_02BA.java
 ```
 
 Run the java program.
 ```cpp
-$> pi4j MS5803-02BA
+$> pi4j MS5803_02BA
 ```
 
 ## Python
@@ -35,7 +35,7 @@ https://pypi.python.org/pypi/smbus-cffi/0.5.1
 Download (or git pull) the code in pi. Run the program.
 
 ```cpp
-$> python MS5803-02BA.py
+$> python MS5803_02BA.py
 ```
 
 #####The code output is the pressure in mbar and temperature reading in degree celsius and fahrenheit.
