@@ -46,8 +46,5 @@ Download (or git pull) the code and double click the file to run the program.
 
 Compile and upload the code on Arduino IDE and see the output on Serial Monitor.
 
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
 #####The code output is the pressure in mbar and temperature reading in degree celsius and fahrenheit.
