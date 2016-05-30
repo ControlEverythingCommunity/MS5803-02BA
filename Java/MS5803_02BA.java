@@ -69,7 +69,7 @@ public class MS5803_02BA
 		device.read(0x00, value, 0, 3);
 		long D2 = ((value[0] & 0xFF) * 65536 + (value[1] & 0xFF) * 256 + (value[2] & 0xFF));
 
-		long dT = D2 - C6 * 256;
+		long dT = D2 - C5 * 256;
 		long TEMP = 2000 + dT * C6 / (long)8388608;
 		long OFF = C2 * 131072L + (C4 * dT) / 64L;
 		long SENS = C1 * 65536L + (C3 * dT) / 128L;
